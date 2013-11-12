@@ -1,0 +1,25 @@
+{
+	"name" : "3d-compiler",
+	"private" : true,
+	"version" : "0.1.0",
+	"author": "kdi",
+	"description": "Compiling 3D OBJ files to Three.js JSON, as a node module",
+	"homepage": "https://github.com/kdi/3d-compiler",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/kdi/3d-compiler.git"
+	},
+	"licenses": [
+		{
+		"type": "CC BY-NC-ND 3.0 license",
+		"url": "https://creativecommons.org/licenses/by-nc-nd/3.0/"
+		}
+	],
+	"engine" : {
+		"node" : "0.8.x"
+	},
+	"dependencies" : {
+		"grunt": "*",
+				"grunt-3d": "*"
+	}
+}
